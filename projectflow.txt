@@ -6,3 +6,6 @@ Do "dvc init"(ceates .dvcignore, .dvc)
 Create a local folder named "S3" - using mkdir S3
 Now do "dvc remote add -d myremote S3"
 Next do "dvc add data/"
+now do git add .
+do dvc commit & then dvc push
+now make changes to code.py file to add a row to data.
